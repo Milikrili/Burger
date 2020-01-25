@@ -1,0 +1,56 @@
+body {
+    background: rgb(12, 76, 112);
+    color: #fff;
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+}
+#burger{
+    width: 70px;
+}
+
+ nav{
+    display: none;
+} 
+nav a {
+    background: rgb(14, 14, 15);
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #fff;
+}
+
+.brand {
+    text-align: center;
+}
+
+.wrapper {
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+@media (min-width: 800px) {
+    nav {
+        background: rgb(15, 15, 15);
+        display: flex;
+
+    }
+    nav a {
+        border-bottom: 0;
+        width: 25%;
+    }
+    nav a:hover {
+        border-bottom: 1px solid #fff;
+    }
+    .wrapper {
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+    #burger{
+        display: none;
+    };
+}
